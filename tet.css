@@ -1,0 +1,49 @@
+body{
+    padding: 20px;
+    display: flex;
+    flex: 1;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex: 1;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100pv;
+    margin: 0;
+}
+.hienthi{
+    width: auto;
+    margin: 1;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    transform: translateY(10px);
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f3abdb;
+}
+button{
+    padding: 20px 20px;
+    background-color: #ff7ed4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
